@@ -8,7 +8,7 @@ The initial set-up was done by HTriedman (WMF), and you can find the example [he
 
 ## Features
 
-* **Visualization** : Instantaneous plots showcasing edits and editors for Wikipedia, Wikimedia Commons, and Wikidata.
+* **Visualization** : Instantaneous plots showcasing edits and editors for Spanish Wikipedia, Wikimedia Commons, and Wikidata.
 * **Country-specific Data** : Easily adjustable to view data for different countries.
 * **Data Frequency** : Choice between monthly or weekly data representation.
 
@@ -25,27 +25,13 @@ The initial set-up was done by HTriedman (WMF), and you can find the example [he
 
 ### Installation
 
-1. Clone the repository:
-   <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span><span class="" data-state="closed"></span></div></div></pre>
-
-* <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">git clone https://github.com/yourusername/wikimedia-edits-analysis.git
-  </code></div></div></pre>
-* Navigate to the project directory:
-  <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span><span class="" data-state="closed"></span></div></div></pre>
-* <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">cd wikimedia-edits-analysis
-  </code></div></div></pre>
-* Install required packages:
-  <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span class="" data-state="closed"></span></div></div></pre>
-
-1. <pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs">pip install -r requirements.txt
-   </code></div></div></pre>
+You can either download the monthly or weekly code and run it on your computer. Or you can use an online Notebook, for example PAWS. 
 
 ## Usage
 
-1. Open the `Wikimedia_Edits_Analysis.ipynb` notebook in Jupyter Notebook.
+1. Open the `geoeditors_monthly.ipynb`  or the `geoeditors_weekly.ipynb` notebook in Jupyter Notebook.
 2. Adjust the country variable to your desired country.
-3. Choose the data frequency (monthly or weekly).
-4. Run the notebook to generate visualizations.
+3. Run the notebook to generate visualizations.
 
 ## Contributing
 
@@ -53,9 +39,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-This project is licensed under the MIT License. See `LICENSE` for more details.
+This project is licensed under the GNU General Public License v3.0. See `LICENSE` for more details.
 
 ## Acknowledgments
 
 * Data sourced from the Wikimedia Foundation.
-* Inspiration and initial structure from the provided example by Wikimedia.
+* Inspiration and initial structure from the provided example by HTriedman (WMF).
