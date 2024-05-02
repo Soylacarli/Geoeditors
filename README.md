@@ -2,13 +2,14 @@
 
 ## Overview
 
-This project provides a Jupyter Notebook that visualizes the edits and editors of Wikimedia projects for each country. The data is sourced directly from the Wikimedia Foundation and has been processed to maintain privacy through differential privacy techniques.
+This project provides a Jupyter Notebook that visualizes the edits and editors of Wikimedia projects for a country of a choice. The data is sourced directly from the Wikimedia Foundation and has been processed to maintain privacy through differential privacy techniques. You can find more information about the dataset [here](https://analytics.wikimedia.org/published/datasets/geoeditors_monthly/00_README.html).
+
+The initial set-up was done by HTriedman (WMF), and you can find the example [here](https://public-paws.wmcloud.org/User:HTriedman%20(WMF)/private_geoeditors_data_access.ipynb).
 
 ## Features
 
-* **Dynamic Visualization** : Instantaneous plots showcasing edits and editors for Wikipedia, Wikimedia Commons, and Wikidata.
+* **Visualization** : Instantaneous plots showcasing edits and editors for Wikipedia, Wikimedia Commons, and Wikidata.
 * **Country-specific Data** : Easily adjustable to view data for different countries.
-* **User Level Segmentation** : Options to segment data based on user levels.
 * **Data Frequency** : Choice between monthly or weekly data representation.
 
 ## Getting Started
@@ -20,6 +21,7 @@ This project provides a Jupyter Notebook that visualizes the edits and editors o
 * Pandas
 * Matplotlib
 * Requests
+* Seaborn
 
 ### Installation
 
